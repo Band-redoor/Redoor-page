@@ -113,6 +113,13 @@ const REDOOR_EVENTS = [
     ]
   },
   {
+    date: "2026-07-31",
+    type: "RELEASE",
+    title: "New Single 'Feathers' Release",
+    time: "18:00",
+    location: ""
+  },
+  {
     date: "2026-08-02",
     type: "FESTIVAL",
     title: "2026 Incheon Pentaport Rock Festival",
@@ -146,7 +153,7 @@ const REDOOR_EVENTS = [
     date: "2026-08-15",
     type: "FESTIVAL",
     title: "2026 Jeonju Ultimate Music Festival",
-    time: "추후 공개",
+    time: "19:00 - 19:50",
     location: "전주대학교 인조잔디구장",
     ticketLinks: [
       {
@@ -184,6 +191,27 @@ const REDOOR_EVENTS = [
       }
     ],
     ticket: "Trip Events"
+  },
+  {
+    date: "2026-09-16",
+    type: "RELEASE",
+    title: "4th EP 'Memory' Release",
+    time: "18:00",
+    location: ""
+  },
+  {
+    date: "2026-09-26",
+    type: "LIVE",
+    title: "REDOOR CONCERT",
+    time: "추후 공개",
+    location: "추후 공개"
+  },
+  {
+    date: "2026-09-27",
+    type: "LIVE",
+    title: "REDOOR CONCERT",
+    time: "추후 공개",
+    location: "추후 공개"
   },
   {
     date: "2026-10-02",
