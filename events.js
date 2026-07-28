@@ -115,7 +115,7 @@ const REDOOR_EVENTS = [
   {
     date: "2026-07-31",
     type: "RELEASE",
-    title: "New Single 'Feathers' Release",
+    title: "[SINGLE] Feathers Release",
     time: "18:00",
     location: ""
   },
@@ -195,7 +195,7 @@ const REDOOR_EVENTS = [
   {
     date: "2026-09-16",
     type: "RELEASE",
-    title: "4th EP 'Memory' Release",
+    title: "[4TH EP] Memory Release",
     time: "18:00",
     location: ""
   },

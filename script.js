@@ -246,7 +246,7 @@ function renderUpcoming() {
 }
 
 function getDdayLabel(dateString, type) {
-  if (!dateString || !["LIVE", "FESTIVAL"].includes(type)) return "";
+  if (!dateString || !["LIVE", "FESTIVAL", "BIRTHDAY", "RELEASE"].includes(type)) return "";
 
   const [year, month, day] = dateString.split("-").map(Number);
   const now = new Date();
