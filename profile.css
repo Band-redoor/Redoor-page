@@ -107,29 +107,46 @@ a {
   position: absolute;
   top: 50%;
   z-index: 1;
-  width: 34px;
-  height: 48px;
+  width: 30px;
+  height: 44px;
   padding: 0;
   border: 0;
   background: transparent;
-  color: rgba(105, 105, 105, 0.62);
-  font-family: Arial, sans-serif;
-  font-size: 31px;
-  font-weight: 300;
-  line-height: 48px;
-  text-align: center;
-  text-shadow: 0 1px 4px rgba(255, 255, 255, 0.58);
+  color: transparent;
+  font-size: 0;
   cursor: pointer;
   transform: translateY(-50%);
-  transition: color 180ms ease;
+  opacity: 0.42;
+  transition: opacity 180ms ease;
+}
+
+.photo-arrow::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  border-top: 1.5px solid rgba(245, 245, 245, 0.95);
+  border-right: 1.5px solid rgba(245, 245, 245, 0.95);
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.28));
 }
 
 .photo-prev {
-  left: 3px;
+  left: 5px;
+}
+
+.photo-prev::before {
+  left: 10px;
+  transform: translateY(-50%) rotate(-135deg);
 }
 
 .photo-next {
-  right: 3px;
+  right: 5px;
+}
+
+.photo-next::before {
+  right: 10px;
+  transform: translateY(-50%) rotate(45deg);
 }
 
 .member-card h2 {
@@ -172,8 +189,12 @@ a {
     color: var(--black);
   }
 
+  .member-photo-frame:hover .photo-arrow {
+    opacity: 0.82;
+  }
+
   .photo-arrow:hover {
-    color: rgba(70, 70, 70, 0.92);
+    opacity: 1;
   }
 }
 
@@ -287,10 +308,14 @@ a {
   }
 
   .photo-arrow {
-    width: 30px;
-    height: 44px;
-    font-size: 27px;
-    line-height: 44px;
+    width: 28px;
+    height: 42px;
+    opacity: 0.56;
+  }
+
+  .photo-arrow::before {
+    width: 10px;
+    height: 10px;
   }
 
   .profile-footer {
