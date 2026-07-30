@@ -88,9 +88,11 @@ a {
 }
 
 .member-photo-frame {
+  position: relative;
   aspect-ratio: 4 / 5;
   background: var(--placeholder);
   overflow: hidden;
+  touch-action: pan-y;
 }
 
 .member-photo {
@@ -99,6 +101,35 @@ a {
   height: 100%;
   object-fit: cover;
   transition: transform 320ms ease;
+}
+
+.photo-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  width: 34px;
+  height: 48px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: rgba(105, 105, 105, 0.62);
+  font-family: Arial, sans-serif;
+  font-size: 31px;
+  font-weight: 300;
+  line-height: 48px;
+  text-align: center;
+  text-shadow: 0 1px 4px rgba(255, 255, 255, 0.58);
+  cursor: pointer;
+  transform: translateY(-50%);
+  transition: color 180ms ease;
+}
+
+.photo-prev {
+  left: 3px;
+}
+
+.photo-next {
+  right: 3px;
 }
 
 .member-card h2 {
@@ -139,6 +170,10 @@ a {
 
   .member-instagram:hover {
     color: var(--black);
+  }
+
+  .photo-arrow:hover {
+    color: rgba(70, 70, 70, 0.92);
   }
 }
 
@@ -249,6 +284,13 @@ a {
   .member-card h2 {
     margin-top: 10px;
     font-size: 22px;
+  }
+
+  .photo-arrow {
+    width: 30px;
+    height: 44px;
+    font-size: 27px;
+    line-height: 44px;
   }
 
   .profile-footer {

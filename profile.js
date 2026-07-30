@@ -29,3 +29,50 @@ if (profileIntro && (hasSeenIntro || skipIntroFromNavigation)) {
 if (skipIntroFromNavigation) {
   window.history.replaceState({}, "", window.location.pathname);
 }
+
+document.querySelectorAll(".member-photo-frame[data-images]").forEach((frame) => {
+  const photo = frame.querySelector(".member-photo");
+  const previousButton = frame.querySelector(".photo-prev");
+  const nextButton = frame.querySelector(".photo-next");
+  const memberName = frame.dataset.member || "멤버";
+  const images = frame.dataset.images.split("|").filter(Boolean);
+  let currentIndex = 0;
+  let touchStartX = null;
+
+  if (!photo || images.length < 2) {
+    previousButton?.remove();
+    nextButton?.remove();
+    return;
+  }
+
+  function showPhoto(index) {
+    currentIndex = (index + images.length) % images.length;
+    photo.src = images[currentIndex];
+    photo.alt = `${memberName} 사진 ${currentIndex + 1}`;
+  }
+
+  previousButton.addEventListener("click", () => showPhoto(currentIndex - 1));
+  nextButton.addEventListener("click", () => showPhoto(currentIndex + 1));
+
+  frame.addEventListener(
+    "touchstart",
+    (event) => {
+      touchStartX = event.changedTouches[0].clientX;
+    },
+    { passive: true }
+  );
+
+  frame.addEventListener(
+    "touchend",
+    (event) => {
+      if (touchStartX === null) return;
+
+      const distance = event.changedTouches[0].clientX - touchStartX;
+      touchStartX = null;
+
+      if (Math.abs(distance) < 35) return;
+      showPhoto(currentIndex + (distance < 0 ? 1 : -1));
+    },
+    { passive: true }
+  );
+});
