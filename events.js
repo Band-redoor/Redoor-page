@@ -171,7 +171,6 @@ const REDOOR_EVENTS = [
     location: "",
     yearly: true
   },
-true
    {
     date: "2026-09-04",
     type: "FESTIVAL",
@@ -182,7 +181,7 @@ true
     ticketLinks: [
       {
         name: "YES24",
-        url: "https://m.ticket.yes24.com/Perf/59776"
+        url: "https://ticket.yes24.com/Perf/59776"
       }
     ]
   },
