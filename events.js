@@ -256,5 +256,14 @@ const REDOOR_EVENTS = [
         url: "https://booking.naver.com/booking/12/bizes/1702892"
       }
     ]
+  },
+    {
+    date: "2026-10-31",
+    type: "FESTIVAL",
+    title: "EverBlue Festival 2026 in Daegu",
+    time: "추후 공개",
+    location: "대구 엑스코 5층 컨벤션홀",
+    ticketOpen: "2026. 08. 24. (월) 16:00",
+    ticket: "NOL 티켓"
   }
 ];
