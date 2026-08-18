@@ -278,6 +278,7 @@ function eventBlock(event) {
             : event.time
         )}
         ${optionalDetailRow("LOCATION", event.location)}
+        ${optionalDetailRow("TICKET OPEN", event.ticketOpen)}
         ${ticketHtml(event)}
       </div>
     </section>

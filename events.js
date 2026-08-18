@@ -1,6 +1,7 @@
 // REDOOR 일정 데이터
 // ticketLinks: 클릭 가능한 예매처 링크 목록
 // ticket: 링크를 확인하지 못한 예매처를 텍스트로 표시
+// ticketOpen: 티켓 오픈 일시를 텍스트로 표시
 // yearly: true인 일정은 매년 자동 반복
 // ANNIVERSARY + startYear는 "데뷔 0주년, 1주년..."으로 자동 계산
 
@@ -169,6 +170,15 @@ const REDOOR_EVENTS = [
     time: "",
     location: "",
     yearly: true
+  },
+  {
+    date: "2026-09-04",
+    type: "FESTIVAL",
+    title: "MU:CON 2026 SHOWCASE",
+    time: "추후 공개",
+    location: "용산어린이정원",
+    ticketOpen: "2026. 08. 20. (목) 19:00",
+    ticket: "YES24"
   },
   {
     date: "2026-09-06",
