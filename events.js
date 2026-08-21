@@ -175,9 +175,8 @@ const REDOOR_EVENTS = [
     date: "2026-09-04",
     type: "FESTIVAL",
     title: "MU:CON 2026 SHOWCASE",
-    time: "추후 공개",
+    time: "20:00~21:00",
     location: "용산어린이정원",
-    ticketOpen: "2026. 08. 20. (목) 19:00",
     ticketLinks: [
       {
         name: "YES24",
