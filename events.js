@@ -216,16 +216,20 @@ const REDOOR_EVENTS = [
   {
     date: "2026-09-26",
     type: "LIVE",
-    title: "REDOOR CONCERT",
-    time: "추후 공개",
-    location: "추후 공개"
+    title: "2026 Redoor 단독콘서트 <Memory>",
+    time: "18:00",
+    location: "올림픽공원 올림픽홀",
+    ticketOpen: "2026. 08. 28. (금) 20:00",
+    ticket: "NOL 티켓"
   },
   {
     date: "2026-09-27",
     type: "LIVE",
-    title: "REDOOR CONCERT",
-    time: "추후 공개",
-    location: "추후 공개"
+    title: "2026 Redoor 단독콘서트 <Memory>",
+    time: "17:00",
+    location: "올림픽공원 올림픽홀",
+    ticketOpen: "2026. 08. 28. (금) 20:00",
+    ticket: "NOL 티켓"
   },
   {
     date: "2026-10-02",
