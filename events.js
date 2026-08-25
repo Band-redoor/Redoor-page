@@ -212,16 +212,7 @@ const REDOOR_EVENTS = [
     title: "[4TH EP] Memory Release",
     time: "18:00",
     location: ""
-  },
-  {
-    date: "2026-09-26",
-    type: "LIVE",
-    title: "2026 Redoor 단독콘서트 <Memory>",
-    time: "18:00",
-    location: "올림픽공원 올림픽홀",
-    ticketOpen: "2026. 08. 28. (금) 20:00",
-    ticket: "NOL 티켓"
-  },
+ },
   {
     date: "2026-09-27",
     type: "LIVE",
