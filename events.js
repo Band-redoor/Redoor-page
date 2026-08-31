@@ -188,7 +188,7 @@ const REDOOR_EVENTS = [
     date: "2026-09-06",
     type: "FESTIVAL",
     title: "MADLY MEDLEY 2026",
-    time: "추후 공개",
+    time: "13:30~14:10",
     location: "문화비축기지",
     ticketLinks: [
       {
@@ -205,6 +205,13 @@ const REDOOR_EVENTS = [
       }
     ],
     ticket: "Trip Events"
+  },
+  {
+    date: "2026-09-11",
+    type: "FESTIVAL",
+    title: "2026 KAIST ART AND MUSIC FESTIVAL",
+    time: "추후 공개",
+    location: "KAIST 캠퍼스"
   },
   {
     date: "2026-09-26",
