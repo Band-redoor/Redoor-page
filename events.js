@@ -214,6 +214,13 @@ const REDOOR_EVENTS = [
     location: "KAIST 캠퍼스"
   },
   {
+    date: "2026-09-18",
+    type: "FESTIVAL",
+    title: "2026 비룡제",
+    time: "추후 공개",
+    location: "인하대학교 대운동장"
+  },
+  {
     date: "2026-09-26",
     type: "LIVE",
     title: "2026 Redoor 단독콘서트 <Memory>",
