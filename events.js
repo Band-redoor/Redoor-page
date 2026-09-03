@@ -210,7 +210,7 @@ const REDOOR_EVENTS = [
     date: "2026-09-11",
     type: "FESTIVAL",
     title: "2026 KAIST ART AND MUSIC FESTIVAL",
-    time: "추후 공개",
+    time: "20:10~20:50",
     location: "KAIST 캠퍼스"
   },
   {
