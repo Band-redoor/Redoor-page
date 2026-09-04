@@ -214,6 +214,13 @@ const REDOOR_EVENTS = [
     location: "KAIST 캠퍼스"
   },
   {
+    date: "2026-09-14",
+    type: "FESTIVAL",
+    title: "MASTERPEACE : WONDERLAND",
+    time: "추후 공개",
+    location: "경희대학교 서울캠퍼스"
+  },
+  {
     date: "2026-09-18",
     type: "FESTIVAL",
     title: "2026 비룡제",
