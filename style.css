@@ -455,6 +455,16 @@ a {
   white-space: nowrap;
 }
 
+.visitor-counter {
+  white-space: nowrap;
+}
+
+.visitor-counter strong {
+  color: var(--black);
+  font: inherit;
+  font-weight: 600;
+}
+
 button,
 button:visited,
 button:active,
