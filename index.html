@@ -3,103 +3,59 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="밴드 리도어(REDOOR)의 멤버 프로필과 공연 스케줄을 확인하는 팬메이드 페이지입니다." />
-  <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://band-redoor.github.io/Redoor-page/" />
-  <title>REDOOR Profile | 리도어 프로필</title>
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="REDOOR" />
-  <meta property="og:description" content="REDOOR FAN-MADE PAGE" />
-  <meta property="og:url" content="https://band-redoor.github.io/Redoor-page/" />
-  <meta property="og:image" content="https://band-redoor.github.io/Redoor-page/%EC%82%AC%EC%A7%84%2Bredoor.jpg" />
-  <meta property="og:image:alt" content="REDOOR 단체사진" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "REDOOR FAN-MADE PAGE",
-      "alternateName": "리도어 팬메이드 페이지",
-      "url": "https://band-redoor.github.io/Redoor-page/",
-      "inLanguage": "ko"
-    }
-  </script>
-  <link rel="stylesheet" href="profile.css" />
+  <meta name="description" content="REDOOR schedule calendar" />
+  <title>REDOOR Schedule</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div id="profileIntro" class="profile-intro" aria-hidden="true">
-    <div class="intro-image">
-      <img class="intro-photo" src="redoor-group-13-2.jpg" alt="리도어 단체사진" />
-      <img class="intro-logo" src="redoor-logo-white.png" alt="REDOOR" />
-    </div>
-    <p>CLICK, TOUCH OR SCROLL TO SKIP</p>
-  </div>
-
-  <header class="profile-header">
-    <a class="profile-brand" href="index.html?skipIntro=1" aria-label="REDOOR Profile 홈">
-      <img src="IMG_5259.jpeg" alt="REDOOR" />
-    </a>
-    <nav class="profile-nav" aria-label="주요 메뉴">
-      <a class="active" href="index.html?skipIntro=1">PROFILE</a>
-      <a href="schedule.html">SCHEDULE</a>
-      <a href="https://cafe.daum.net/redoor" target="_blank" rel="noopener noreferrer">CAFE</a>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="REDOOR Schedule 홈">
+  <img src="IMG_5259.jpeg" alt="REDOOR" class="brand-logo">
+</a>
+    <nav class="top-nav" aria-label="주요 메뉴">
+      <a href="#calendar" class="active">SCHEDULE</a>
+      <a href="#upcoming">UPCOMING</a>
     </nav>
   </header>
 
-  <main class="profile-main">
-    <section class="profile-title-row" aria-labelledby="profileTitle">
-      <h1 id="profileTitle">PROFILE</h1>
+  <main class="page-shell">
+    <section class="calendar-section" id="calendar">
+      <div class="calendar-toolbar">
+        <div class="month-control">
+          <button id="prevMonth" class="icon-button" type="button" aria-label="이전 달">‹</button>
+          <button id="nextMonth" class="icon-button" type="button" aria-label="다음 달">›</button>
+          <h1 id="monthTitle">AUGUST 2026</h1>
+        </div>
+      </div>
+
+      <div class="calendar-frame">
+        <div class="calendar-grid weekdays" aria-hidden="true">
+          <div>SUN</div><div>MON</div><div>TUE</div><div>WED</div>
+          <div>THU</div><div>FRI</div><div>SAT</div>
+        </div>
+        <div id="calendarGrid" class="calendar-grid dates" aria-label="월간 달력"></div>
+      </div>
+
+      <section class="upcoming" id="upcoming">
+        <div class="section-title">UPCOMING EVENTS</div>
+        <div id="upcomingList" class="upcoming-list"></div>
+      </section>
     </section>
 
-    <section class="member-grid" aria-label="리도어 멤버">
-      <article class="member-card">
-        <div class="member-photo-frame" data-member="이등대" data-images="이등대.jpg|이등대.jfif">
-          <img class="member-photo" src="이등대.jpg" alt="이등대 사진 1" />
-          <button class="photo-arrow photo-prev" type="button" aria-label="이등대 이전 사진">&lt;</button>
-          <button class="photo-arrow photo-next" type="button" aria-label="이등대 다음 사진">&gt;</button>
-        </div>
-        <h2>이등대 <span>(보컬)</span></h2>
-        <p>1999. 01. 01</p>
-        <a class="member-instagram" href="https://www.instagram.com/olsm_/" target="_blank" rel="noopener">INSTAGRAM ↗</a>
-      </article>
-      <article class="member-card">
-        <div class="member-photo-frame" data-member="최승현" data-images="최승현.jpg|최승현.jfif">
-          <img class="member-photo" src="최승현.jpg" alt="최승현 사진 1" />
-          <button class="photo-arrow photo-prev" type="button" aria-label="최승현 이전 사진">&lt;</button>
-          <button class="photo-arrow photo-next" type="button" aria-label="최승현 다음 사진">&gt;</button>
-        </div>
-        <h2>최승현 <span>(기타)</span></h2>
-        <p>1997. 05. 12</p>
-        <a class="member-instagram" href="https://www.instagram.com/choisnhn/" target="_blank" rel="noopener">INSTAGRAM ↗</a>
-      </article>
-      <article class="member-card">
-        <div class="member-photo-frame" data-member="주상욱" data-images="주상욱.jpg|주상욱.jfif">
-          <img class="member-photo" src="주상욱.jpg" alt="주상욱 사진 1" />
-          <button class="photo-arrow photo-prev" type="button" aria-label="주상욱 이전 사진">&lt;</button>
-          <button class="photo-arrow photo-next" type="button" aria-label="주상욱 다음 사진">&gt;</button>
-        </div>
-        <h2>주상욱 <span>(드럼)</span></h2>
-        <p>1998. 08. 26</p>
-        <a class="member-instagram" href="https://www.instagram.com/joosangug/" target="_blank" rel="noopener">INSTAGRAM ↗</a>
-      </article>
-      <article class="member-card">
-        <div class="member-photo-frame" data-member="박세웅" data-images="박세웅.jpg|박세웅.jfif">
-          <img class="member-photo" src="박세웅.jpg" alt="박세웅 사진 1" />
-          <button class="photo-arrow photo-prev" type="button" aria-label="박세웅 이전 사진">&lt;</button>
-          <button class="photo-arrow photo-next" type="button" aria-label="박세웅 다음 사진">&gt;</button>
-        </div>
-        <h2>박세웅 <span>(베이스)</span></h2>
-        <p>1998. 04. 17</p>
-        <a class="member-instagram" href="https://www.instagram.com/basswoong/" target="_blank" rel="noopener">INSTAGRAM ↗</a>
-      </article>
-    </section>
+    <aside id="eventPanel" class="event-panel" aria-live="polite">
+      <div class="empty-state">
+        <h2>일정이 있는 날짜를 선택해주세요.</h2>
+        <p>일정이 있는 날짜를 누르면 시간, 장소, 예매 정보가 여기에 표시됩니다.</p>
+      </div>
+    </aside>
   </main>
 
-  <footer class="profile-footer">
-    <span class="site-updated">LAST UPDATED&ensp;2026. 08. 25</span>
-    <span>FAN-MADE PAGE</span>
+  <footer class="site-footer">
+    <strong>REDOOR</strong>
+    <span>FAN-MADE SCHEDULE</span>
   </footer>
 
-  <script src="profile.js"></script>
+  <script src="events.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
