@@ -249,20 +249,18 @@ a {
 
 .intro-image {
   position: relative;
-  width: min(92vw, 117vh, 1200px);
-  aspect-ratio: 3 / 2;
+  width: min(92vw, 1200px);
   height: auto;
-  background: #000;
+  background: transparent;
   overflow: hidden;
 }
 
 .intro-image .intro-photo {
   display: block;
   width: 100%;
-  height: 100%;
+  height: auto;
   max-width: none;
-  object-fit: contain;
-  object-position: center center;
+  object-fit: initial;
 }
 
 .intro-image .intro-logo {
@@ -351,7 +349,6 @@ a {
   .intro-image {
   width: min(92vw, 108vh);
   height: auto;
-  aspect-ratio: 3 / 2;
   }
 
   .intro-image .intro-logo {
