@@ -214,6 +214,13 @@ const REDOOR_EVENTS = [
     location: "KAIST 캠퍼스"
   },
   {
+    date: "2026-09-12",
+    type: "RADIO",
+    title: "MBC FM4U 〈스포왕 고영배〉",
+    time: "22:00~24:00",
+    location: "MBC FM4U"
+  },
+  {
     date: "2026-09-14",
     type: "FESTIVAL",
     title: "MASTERPEACE : WONDERLAND",
