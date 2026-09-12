@@ -349,8 +349,9 @@ a {
   }
 
   .intro-image {
-    width: 88vw;
-    height: min(72vh, 117vw);
+  width: min(92vw, 108vh);
+  height: auto;
+  aspect-ratio: 3 / 2;
   }
 
   .intro-image .intro-logo {
@@ -359,7 +360,7 @@ a {
   left: 50%;
   width: 60%;
   transform: translateX(-50%);
-}
+  }
 
 @media (prefers-reduced-motion: reduce) {
   .profile-intro {
