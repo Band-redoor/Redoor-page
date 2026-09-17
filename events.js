@@ -263,8 +263,8 @@ const REDOOR_EVENTS = [
     date: "2026-10-02",
     type: "FESTIVAL",
     title: "2026 부산국제록페스티벌",
-    time: "추후 공개",
-    location: "삼락생태공원",
+    time: "13:30~14:00",
+    location: "삼락생태공원 GREEN stage",
     ticketLinks: [
       {
         name: "YES24",
