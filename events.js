@@ -260,6 +260,13 @@ const REDOOR_EVENTS = [
     ticket: "NOL 티켓"
   },
   {
+    date: "2026-10-01",
+    type: "FESTIVAL",
+    title: "2026 애국한양응원제 : 오름",
+    time: "추후 공개",
+    location: "한양대학교 서울캠퍼스 노천극장",
+  },
+  {
     date: "2026-10-02",
     type: "FESTIVAL",
     title: "2026 부산국제록페스티벌",
