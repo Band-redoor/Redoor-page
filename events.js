@@ -231,7 +231,7 @@ const REDOOR_EVENTS = [
     date: "2026-09-18",
     type: "FESTIVAL",
     title: "2026 비룡제",
-    time: "19:20 이후",
+    time: "20:00~ ",
     location: "인하대학교 대운동장"
   },
   {
