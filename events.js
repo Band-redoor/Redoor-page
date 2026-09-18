@@ -260,6 +260,13 @@ const REDOOR_EVENTS = [
     ticket: "NOL 티켓"
   },
   {
+    date: "2026-09-30",
+    type: "FESTIVAL",
+    title: "2026학년도 백양체전 [ENCORE]",
+    time: "추후 공개",
+    location: "강남대학교"
+  },
+  {
     date: "2026-10-01",
     type: "FESTIVAL",
     title: "2026 애국한양응원제 : 오름",
