@@ -290,8 +290,8 @@ const REDOOR_EVENTS = [
     date: "2026-10-17",
     type: "FESTIVAL",
     title: "GRAND MINT FESTIVAL 2026",
-    time: "추후 공개",
-    location: "올림픽공원",
+    time: "18:30~19:30",
+    location: "올림픽공원 KSPO DOME",
     ticketLinks: [
       {
         name: "NOL 티켓",
