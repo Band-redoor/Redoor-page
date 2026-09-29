@@ -270,7 +270,7 @@ const REDOOR_EVENTS = [
     date: "2026-10-01",
     type: "FESTIVAL",
     title: "2026 애국한양응원제 : 오름",
-    time: "추후 공개",
+    time: "20:00~",
     location: "한양대학교 서울캠퍼스 노천극장",
   },
   {
