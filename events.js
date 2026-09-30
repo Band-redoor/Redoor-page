@@ -263,7 +263,7 @@ const REDOOR_EVENTS = [
     date: "2026-09-30",
     type: "FESTIVAL",
     title: "2026학년도 백양체전 [ENCORE]",
-    time: "21:00~",
+    time: "20:30~",
     location: "강남대학교"
   },
   {
