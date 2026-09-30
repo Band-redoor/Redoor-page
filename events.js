@@ -307,6 +307,13 @@ const REDOOR_EVENTS = [
       }
     ]
   },
+    {
+    date: "2026-10-24",
+    type: "FESTIVAL",
+    title: "2026 대덕대청호물결축제",
+    time: "추후 공개",
+    location: "대청공원 동편광장"
+  },
      {
     date: "2026-10-31",
     type: "FESTIVAL",
