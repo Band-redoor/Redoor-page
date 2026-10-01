@@ -287,6 +287,13 @@ const REDOOR_EVENTS = [
     ]
   },
   {
+    date: "2026-10-08",
+    type: "FESTIVAL",
+    title: "한국외국어대학교 QUINQUATRIA : Twilight",
+    time: "추후 공개",
+    location: "한국외국어대학교 서울캠퍼스"
+  },
+  {
     date: "2026-10-17",
     type: "FESTIVAL",
     title: "GRAND MINT FESTIVAL 2026",
