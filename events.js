@@ -334,7 +334,7 @@ const REDOOR_EVENTS = [
         url: "https://m.ticketlink.co.kr/product/65183"
       },
       {
-        name: "NOL 티켓",
+        name: "NOL",
         url: "https://nol.yanolja.com/ticket/products/26012230"
       }
     ]
@@ -349,7 +349,7 @@ const REDOOR_EVENTS = [
   ticket: "NOL",
   ticketLinks: [
     {
-      name: "NOL 티켓",
+      name: "NOL",
       url: "https://nol.yanolja.com/ticket/products/26014245"
     }
   ]
