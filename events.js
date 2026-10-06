@@ -339,14 +339,21 @@ const REDOOR_EVENTS = [
       }
     ]
   },
-  {
-    date: "2026-12-06",
-    type: "LIVE",
-    title: "MINT FESTA vol.89",
-    time: "17:00",
-    location: "KT&G 상상마당 홍대 라이브홀",
-    ticket: "NOL"
-  },
+{
+  date: "2026-12-06",
+  type: "LIVE",
+  title: "MINT FESTA vol.89",
+  time: "17:00",
+  location: "KT&G 상상마당 홍대 라이브홀",
+  ticketOpen: "2026. 10. 08. (목) 18:00",
+  ticket: "NOL",
+  ticketLinks: [
+    {
+      name: "NOL 티켓",
+      url: "https://nol.yanolja.com/ticket/products/26014245"
+    }
+  ]
+},
   {
   date: "2026-12-12",
   type: "LIVE",
