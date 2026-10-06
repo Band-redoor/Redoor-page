@@ -346,7 +346,6 @@ const REDOOR_EVENTS = [
   time: "17:00",
   location: "KT&G 상상마당 홍대 라이브홀",
   ticketOpen: "2026. 10. 08. (목) 18:00",
-  ticket: "NOL",
   ticketLinks: [
     {
       name: "NOL",
