@@ -347,4 +347,22 @@ const REDOOR_EVENTS = [
     location: "KT&G 상상마당 홍대 라이브홀",
     ticket: "NOL"
   },
+  {
+  date: "2026-12-12",
+  type: "LIVE",
+  title: "2026 Awesome Stage Special Concert : Redoor",
+  time: "18:00",
+  location: "KBS아레나",
+  ticketOpen: "2026. 10. 14. (수) 20:00",
+  ticket: "티켓링크"
+},
+{
+  date: "2026-12-13",
+  type: "LIVE",
+  title: "2026 Awesome Stage Special Concert : Redoor",
+  time: "17:00",
+  location: "KBS아레나",
+  ticketOpen: "2026. 10. 14. (수) 20:00",
+  ticket: "티켓링크"
+},
 ];
