@@ -325,7 +325,7 @@ const REDOOR_EVENTS = [
     date: "2026-10-31",
     type: "FESTIVAL",
     title: "EverBlue Festival 2026 in Daegu",
-    time: "추후 공개",
+    time: "16:40 ~ 17:30",
     location: "대구 엑스코 5층 컨벤션홀",
     ticketOpen: "2026. 08. 27. (목) 16:00",
     ticketLinks: [
