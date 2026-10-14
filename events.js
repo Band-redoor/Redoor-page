@@ -321,25 +321,7 @@ const REDOOR_EVENTS = [
     time: "19:30~20:30",
     location: "대청공원 동편광장"
   },
-     {
-    date: "2026-10-31",
-    type: "FESTIVAL",
-    title: "EverBlue Festival 2026 in Daegu",
-    time: "16:40 ~ 17:30",
-    location: "대구 엑스코 5층 컨벤션홀",
-    ticketOpen: "2026. 08. 27. (목) 16:00",
-    ticketLinks: [
-      {
-        name: "티켓링크",
-        url: "https://m.ticketlink.co.kr/product/65183"
-      },
-      {
-        name: "NOL",
-        url: "https://nol.yanolja.com/ticket/products/26012230"
-      }
-    ]
-  },
-{
+    {
   date: "2026-12-06",
   type: "LIVE",
   title: "MINT FESTA vol.89",
