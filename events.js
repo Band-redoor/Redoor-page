@@ -321,6 +321,13 @@ const REDOOR_EVENTS = [
     time: "19:30~20:30",
     location: "대청공원 동편광장"
   },
+  {
+  date: "2026-10-27",
+  type: "FESTIVAL",
+  title: "상지대학교 가을 축제 [낭만동화]",
+  time: "21:30~",
+  location: "상지대학교 소운동장"
+},
     {
   date: "2026-12-06",
   type: "LIVE",
