@@ -360,4 +360,29 @@ const REDOOR_EVENTS = [
   ticketOpen: "2026. 10. 14. (수) 20:00",
   ticket: "티켓링크"
 },
+  {
+  date: "2026-12-31",
+  type: "FESTIVAL",
+  title: "COUNTDOWN FANTASY 2026-2027",
+  time: "추후공개",
+  location: "킨텍스 제2전시장 7홀, 8홀",
+ ticketLinks: [
+  {
+    name: "NOL",
+    url: "https://nol.yanolja.com/ticket/products/26014568"
+  },
+  {
+    name: "YES24",
+    url: "https://ticket.yes24.com/Perf/60590"
+  },
+  {
+    name: "네이버 예약",
+    url: "https://booking.naver.com/booking/12/bizes/1754451/items/8124828"
+  },
+  {
+    name: "2TM",
+    url: "https://www.2tm.co.kr/ticket/10888"
+  }
+]
+},
 ];
