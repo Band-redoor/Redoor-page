@@ -358,7 +358,12 @@ const REDOOR_EVENTS = [
   time: "17:00",
   location: "KBS아레나",
   ticketOpen: "2026. 10. 14. (수) 20:00",
-  ticket: "티켓링크"
+  ticketLinks: [
+  {
+    name: "티켓링크",
+    url: "https://www.ticketlink.co.kr/product/66181"
+  }
+]
 },
   {
   date: "2026-12-31",
