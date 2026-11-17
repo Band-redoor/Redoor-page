@@ -328,6 +328,13 @@ const REDOOR_EVENTS = [
   time: "21:30~",
   location: "상지대학교 소운동장"
 },
+  {
+  date: "2026-11-24",
+  type: "FESTIVAL",
+  title: "2026 광운대학교 EPILOGUE",
+  time: "추후공개",
+  location: "광운대학교"
+},
     {
   date: "2026-12-06",
   type: "LIVE",
