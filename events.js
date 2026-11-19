@@ -332,7 +332,7 @@ const REDOOR_EVENTS = [
   date: "2026-11-24",
   type: "FESTIVAL",
   title: "2026 광운대학교 EPILOGUE",
-  time: "추후공개",
+  time: "17:40~18:40",
   location: "광운대학교"
 },
     {
